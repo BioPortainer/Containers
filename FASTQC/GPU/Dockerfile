@@ -1,4 +1,4 @@
-FROM bioportainer/pyenv:gpu
+FROM bioportainer/pyenv:cuda
 
 RUN eval "$(pyenv init -)" \
     && eval "$(pyenv virtualenv-init -)" \
