@@ -1,7 +1,7 @@
 FROM bioportainer/gui-server:cpu
 
-ADD .config/runners /GUI/conf/runners/
-ADD .config/scripts /GUI/conf/scripts/
+ADD .config/runners /BioGUI/conf/runners/
+ADD .config/scripts/ /BioGUI/conf/scripts/
 
 RUN eval "$(pyenv init -)" \
     && eval "$(pyenv virtualenv-init -)" \
