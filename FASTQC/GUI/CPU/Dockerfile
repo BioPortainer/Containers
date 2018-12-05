@@ -8,4 +8,4 @@ RUN eval "$(pyenv init -)" \
     && pyenv activate $PYTHON3_VERSION \
     && conda install -y fastqc git wget curl \
     && conda clean -tipsy && pyenv deactivate \
-    && chmod -R +x /GUI/conf/scripts/
+    && chmod -R +x /BioGUI/conf/scripts/
