@@ -1,8 +1,8 @@
 {
-  "name": "06-FastQC",
-  "script_path": "conf/scripts/fastqc.sh",
+  "name": "06. FastQC",
+  "script_path": "/BioGUI/conf/scripts/fastqc.sh",
   "description": "Quality control checks on raw sequence data coming from high throughput sequencing pipelines",
-  "working_directory": "./",
+  "working_directory": "/headless/data",
   "parameters": [
     {
       "name": "Input files",
