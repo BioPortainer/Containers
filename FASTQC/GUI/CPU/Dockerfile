@@ -1,4 +1,4 @@
-FROM bioportainer/gui-server:cpu
+FROM bioportainer/gui-runner:cpu
 
 ADD .config/runners /BioGUI/conf/runners/
 ADD .config/scripts/ /BioGUI/conf/scripts/
